@@ -4,9 +4,9 @@
 > ◢ **AETHER — Mission Control AI** · Operadora: Orbital Climate Intelligence (OCI)
 > Subsistema **S6 — Mobile Console** da plataforma *Space Connect*.
 
-![Banner do projeto](./assets/screenshots/banner.png)
+![Banner do projeto](./assets/screenshots/banner.jpeg)
 
-> _Banner placeholder — substitua por uma imagem tematica do grupo (pode ser gerada com IA). Salve como `assets/screenshots/banner.png`._
+> _Banner placeholder — substitua por uma imagem tematica do grupo (pode ser gerada com IA). Salve como `assets/screenshots/banner.jpeg`._
 
 ---
 
@@ -30,37 +30,37 @@ O **AETHER Mobile Console** e o aplicativo mobile de controle da missao espacial
 > Esta secao e **obrigatoria**. Rode o app no Expo Go ou simulador, capture cada tela e salve as imagens em `assets/screenshots/` com os nomes indicados. Os placeholders abaixo ja apontam para os caminhos corretos.
 
 ### Visao Geral — Dashboard Principal
-![Visao Geral](./assets/screenshots/01-visao-geral.png)
+![Visao Geral](./assets/screenshots/01-visao-geral.jpeg)
 
 Banner da missao AETHER-1 (status agregado, relogio da missao, contagem de alertas) e as quatro grades de telemetria consolidadas. Botao para pausar/retomar o stream simulado.
 
 ### Dashboard de Sensores
-![Sensores](./assets/screenshots/02-sensores.png)
+![Sensores](./assets/screenshots/02-sensores.jpeg)
 
 Temperatura, pressao da cabine e radiacao, alem do bloco de estabilidade orbital. Cada card mostra valor monoespacado, badge de nivel, gauge e mini-grafico (sparkline) da serie recente.
 
 ### Dashboard de Energia
-![Energia](./assets/screenshots/03-energia.png)
+![Energia](./assets/screenshots/03-energia.jpeg)
 
 Bateria (SoC), barramento principal e geracao solar, com indicadores de carga e nivel de alerta.
 
 ### Dashboard de Comunicacao
-![Comunicacao](./assets/screenshots/04-comunicacao.png)
+![Comunicacao](./assets/screenshots/04-comunicacao.jpeg)
 
 Sinal (dBm) e latencia do enlace de telemetria com Houston Control.
 
 ### Alertas — Alert Engine
-![Alertas](./assets/screenshots/05-alertas.png)
+![Alertas](./assets/screenshots/05-alertas.jpeg)
 
 Painel "Ativos agora" (metricas fora do NOMINAL) e historico persistido dos alertas disparados, com nivel de criticidade e horario.
 
 ### Configuracoes / Formulario
-![Configuracoes](./assets/screenshots/06-config.png)
+![Configuracoes](./assets/screenshots/06-config.jpeg)
 
 Formulario de configuracao dos limiares de alerta com **validacao inline** (sem alert nativo), toggle de tema e identificacao do projeto.
 
 ### Tema Claro (Dark/Light)
-![Tema Claro](./assets/screenshots/07-tema-claro.png)
+![Tema Claro](./assets/screenshots/07-tema-claro.jpeg)
 
 Mesmo console no tema claro "Daylight Ops" — demonstra o diferencial Dark Mode com preferencia persistida.
 
@@ -128,7 +128,7 @@ npx expo start
 
 ## 7. Video de Demonstracao
 
-[![Assista ao video](./assets/screenshots/01-visao-geral.png)](https://youtube.com/...)
+[![Assista ao video](./assets/screenshots/01-visao-geral.jpeg)](https://youtube.com/...)
 
 > **[Substituir pelo link do YouTube (nao listado) ou Google Drive (visivel para qualquer pessoa com o link)]**
 
