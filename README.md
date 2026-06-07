@@ -83,7 +83,7 @@ Mesmo console no tema claro "Daylight Ops" — demonstra o diferencial Dark Mode
 
 ## 5. Tecnologias
 
-- **React Native** + **Expo** (SDK 55)
+- **React Native** + **Expo** (SDK 56)
 - **Expo Router** (navegacao por Tabs + Stack)
 - **AsyncStorage** (`@react-native-async-storage/async-storage`)
 - **Context API** + `useReducer` / `useState` / `useEffect` (estado global)
@@ -100,7 +100,7 @@ Mesmo console no tema claro "Daylight Ops" — demonstra o diferencial Dark Mode
 ### Pre-requisitos
 - [Node.js](https://nodejs.org/) v20 ou superior
 - [Expo Go](https://expo.dev/go) no celular (Android/iOS) **ou** um emulador
-- Expo SDK 55
+- Expo SDK 56
 
 ### Instalacao
 
