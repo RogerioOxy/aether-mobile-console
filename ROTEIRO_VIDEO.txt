@@ -1,0 +1,92 @@
+====================================================================
+ROTEIRO DO VIDEO DE DEMONSTRACAO - AETHER Mobile Console
+Global Solution 2026.1 - Cross-Platform Application Development | FIAP
+Duracao alvo: 2min40s (LIMITE MAXIMO: 3min - acima disso ZERA)
+RM561942 Rogerio Deligi | RM562686 Maria Fernanda Garavelli Dantas
+====================================================================
+
+DICAS GERAIS
+- Grave com o app ja rodando no Expo Go ou emulador (nao mostre o "npm install").
+- Fale com calma e mostre cada tela por alguns segundos.
+- Deixe a telemetria rodando: os valores mudam sozinhos a cada 2 segundos.
+- Para garantir um alerta visivel, antes de gravar a tela de Alertas, va em
+  Configuracoes e ajuste um limiar de ATENCAO bem proximo do valor atual de
+  uma metrica (ex.: Temperatura), salve, e volte - o alerta deve disparar.
+
+--------------------------------------------------------------------
+[00:00 - 00:20] ABERTURA E CONTEXTO
+--------------------------------------------------------------------
+FALA:
+"Ola! Somos o Rogerio, RM561942, e a Maria Fernanda, RM562686. Este e o
+AETHER Mobile Console, nossa entrega de Cross-Platform da Global Solution
+2026 ponto 1. E o app de controle da missao espacial tripulada AETHER-1,
+operada pela OCI a partir da base Houston Control."
+
+ACAO: mostre a tela Visao Geral com o banner da missao.
+
+--------------------------------------------------------------------
+[00:20 - 00:50] VISAO GERAL + ESTADO GLOBAL
+--------------------------------------------------------------------
+FALA:
+"Na Visao Geral temos o status agregado da missao, o relogio de telemetria
+e a contagem de alertas. Os dados sao simulados em tempo real por um gerador
+mock com setInterval. Repare que os valores e os mini-graficos mudam sozinhos.
+Posso pausar e retomar a telemetria por aqui."
+
+ACAO: aponte os valores mudando; toque em "Pausar" e depois "Retomar".
+
+--------------------------------------------------------------------
+[00:50 - 01:25] OS DASHBOARDS (Sensores / Energia / Comunicacao)
+--------------------------------------------------------------------
+FALA:
+"A navegacao e por abas, com Expo Router. Temos dashboards distintos:
+Sensores de bordo - temperatura, pressao da cabine, radiacao e estabilidade
+orbital; Energia - bateria, barramento e geracao solar; e Comunicacao -
+sinal e latencia do enlace com Houston. Cada card tem valor, indicador de
+nivel, gauge e um mini-grafico desenhado sem biblioteca externa."
+
+ACAO: navegue Sensores -> Energia -> Comunicacao, mostrando os cards.
+
+--------------------------------------------------------------------
+[01:25 - 02:00] ALERT ENGINE
+--------------------------------------------------------------------
+FALA:
+"O coracao do app e o Alert Engine. Ele classifica cada metrica em quatro
+niveis: NOMINAL, ATENCAO, ALERTA e CRITICO, seguindo os limiares da missao.
+Aqui vemos os alertas ativos no momento e o historico, que fica salvo no
+dispositivo com AsyncStorage. Os alertas aparecem com o valor, o nivel e o
+horario do disparo."
+
+ACAO: abra a aba Alertas; mostre um item ativo e o historico.
+
+--------------------------------------------------------------------
+[02:00 - 02:30] FORMULARIO DE LIMIARES + PERSISTENCIA
+--------------------------------------------------------------------
+FALA:
+"Em Configuracoes, o operador ajusta os limiares de cada metrica. O
+formulario tem validacao inline: se eu inverter a ordem dos niveis ou deixar
+um campo vazio, ele acusa o erro abaixo do campo, sem alert nativo. Ao salvar,
+os limiares sao persistidos e o Alert Engine passa a usar os novos valores."
+
+ACAO: digite um valor invalido para mostrar o erro; corrija e salve com sucesso.
+
+--------------------------------------------------------------------
+[02:30 - 02:40] DARK MODE + ENCERRAMENTO
+--------------------------------------------------------------------
+FALA:
+"E o app tem tema espacial escuro por padrao, com toggle para o modo claro,
+tambem persistido. AETHER - do espaco, cuidando da Terra. Obrigado!"
+
+ACAO: toque no icone de tema no canto superior para alternar Dark/Light.
+
+====================================================================
+CHECKLIST ANTES DE PUBLICAR O VIDEO
+[ ] Duracao <= 3 minutos
+[ ] Mostrou TODAS as telas principais
+[ ] Voz OU legenda explicando o que aparece
+[ ] Disparou pelo menos um alerta visivel
+[ ] Mostrou a validacao do formulario (erro + sucesso)
+[ ] Mostrou o toggle de tema
+[ ] Audio e imagem com qualidade adequada
+[ ] Subiu como "nao listado" (YouTube) ou link publico (Drive)
+====================================================================

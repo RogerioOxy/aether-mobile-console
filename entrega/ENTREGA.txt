@@ -1,0 +1,24 @@
+=== GLOBAL SOLUTION 2026.1 ===
+Disciplina: Cross-Platform Application Development
+
+Integrante 1: Rogerio Deligi | RM: 561942
+Integrante 2: Maria Fernanda Garavelli Dantas | RM: 562686
+
+GitHub: https://github.com/RogerioOxy/aether-mobile-console
+Video: https://youtube.com/...   (TROCAR pelo link real apos gravar)
+
+--------------------------------------------------------------------
+Projeto: AETHER Mobile Console (Subsistema S6 - Mobile Console)
+Plataforma: AETHER - Mission Control AI | Space Connect
+Operadora: Orbital Climate Intelligence (OCI)
+
+ANTES DE ENVIAR:
+  - [OK] Link do GitHub ja preenchido (repositorio PUBLICO da RogerioOxy).
+  - FALTA: trocar o link do Video pelo real (YouTube nao listado ou Google
+    Drive "qualquer pessoa com o link") depois de gravar a demo de ate 3min.
+
+ATENCAO (criterios que ZERAM a nota):
+  - App nao roda  -> teste com "npx expo start" antes de gravar
+  - Repositorio privado ou link invalido
+  - Video ausente ou maior que 3 minutos sem demonstrar o app
+--------------------------------------------------------------------

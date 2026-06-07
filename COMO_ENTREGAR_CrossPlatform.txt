@@ -1,0 +1,124 @@
+====================================================================
+COMO ENTREGAR - Cross-Platform (AETHER Mobile Console)
+Global Solution 2026.1 | FIAP
+RM561942 Rogerio Deligi | RM562686 Maria Fernanda Garavelli Dantas
+Prazo: 09/06/2026 as 23h55 (Portal do Aluno)
+====================================================================
+
+>>> REGRA DE OURO: "App nao roda = ZERA". Teste localmente ANTES de gravar
+    o video e antes de subir o repositorio. Faca o passo 2 com calma.
+
+--------------------------------------------------------------------
+PASSO 0 - PRE-REQUISITOS (instalar uma vez)
+--------------------------------------------------------------------
+- Node.js v20+ instalado (verifique: node -v)
+- App "Expo Go" instalado no celular (Android ou iOS), OU um emulador
+- Conexao do PC e do celular na MESMA rede Wi-Fi (para o QR Code funcionar)
+
+--------------------------------------------------------------------
+PASSO 1 - INSTALAR AS DEPENDENCIAS
+--------------------------------------------------------------------
+Abra o terminal NA PASTA do projeto (a pasta que contem o package.json):
+
+    cd AETHER_Mobile_CrossPlatform
+    npm install
+
+Aguarde baixar tudo (cria a pasta node_modules, que NAO vai para o GitHub).
+
+--------------------------------------------------------------------
+PASSO 2 - RODAR E TESTAR (faca isso com atencao)
+--------------------------------------------------------------------
+    npx expo start
+
+- Vai abrir um QR Code no terminal/navegador.
+- Celular: abra o Expo Go e escaneie o QR Code (Android escaneia direto;
+  iOS use a camera nativa e toque no link).
+- Emulador: pressione "a" (Android) ou "i" (iOS) no terminal do Expo.
+
+TESTE ESTES ITENS (todos devem funcionar SEM erro):
+  [ ] App abre na tela "Visao Geral" e os valores mudam sozinhos a cada 2s
+  [ ] Navegar entre as abas: Visao Geral, Sensores, Energia, Comunicacao,
+      Alertas, Config
+  [ ] Tela Alertas mostra "Ativos agora" e/ou historico
+  [ ] Em Config, digite um limiar invalido -> aparece erro vermelho inline
+  [ ] Corrija e clique "Salvar limiares" -> aparece "Limiares salvos"
+  [ ] Toque no icone de sol/lua (canto superior) -> alterna tema claro/escuro
+  [ ] Feche e reabra o app -> o tema e os limiares continuam salvos
+
+Se algo der erro: rode "npx expo install" para alinhar versoes e tente de novo.
+
+--------------------------------------------------------------------
+PASSO 3 - PRINTAR TODAS AS TELAS
+--------------------------------------------------------------------
+Capture um print de CADA tela e salve em assets/screenshots/ com estes nomes:
+    banner.png            (opcional: logo/banner do grupo)
+    01-visao-geral.png
+    02-sensores.png
+    03-energia.png
+    04-comunicacao.png
+    05-alertas.png
+    06-config.png
+    07-tema-claro.png
+- Esses nomes batem com os links do README.md (nao mude os nomes).
+- O README SEM prints e penalizado - nao pule este passo.
+
+--------------------------------------------------------------------
+PASSO 4 - CRIAR O REPOSITORIO GITHUB (PUBLICO)
+--------------------------------------------------------------------
+1. Crie um repositorio PUBLICO no GitHub chamado: aether-mobile-console
+   (repositorio privado ou link invalido ZERA a nota).
+2. No terminal, na pasta do projeto:
+
+    git init
+    git add .
+    git commit -m "AETHER Mobile Console - estrutura e dashboards"
+    git branch -M main
+    git remote add origin https://github.com/<seu-usuario>/aether-mobile-console.git
+    git push -u origin main
+
+3. CONFIRA no GitHub que a pasta node_modules NAO foi enviada
+   (o .gitignore ja a ignora).
+4. COMMITS DE AMBOS OS INTEGRANTES:
+   - O criterio pede commits descritivos ao longo do desenvolvimento.
+   - Para que apareca commit dos dois RMs, cada integrante deve fazer pelo
+     menos um commit com a sua propria conta GitHub (ex.: adicionar os prints,
+     ajustar um texto do README) e dar push.
+   - Confira o nome/e-mail do git de cada um: git config user.name / user.email
+
+--------------------------------------------------------------------
+PASSO 5 - GRAVAR O VIDEO (<= 3 MINUTOS)
+--------------------------------------------------------------------
+- Siga o arquivo ROTEIRO_VIDEO.txt (cena a cena, com falas prontas).
+- Demonstre TODAS as telas e funcionalidades principais.
+- Voz OU legenda explicando o que aparece.
+- LIMITE: 3 minutos. Acima disso, ZERA.
+- Suba no YouTube como "Nao listado" OU no Google Drive como "Qualquer
+  pessoa com o link pode visualizar". Teste o link numa aba anonima.
+
+--------------------------------------------------------------------
+PASSO 6 - PREENCHER O ENTREGA.txt
+--------------------------------------------------------------------
+Abra o arquivo entrega/ENTREGA.txt e substitua:
+  - o link do GitHub pelo link real do repositorio publico
+  - o link do Video pelo link real (testado)
+NAO altere o cabecalho "=== GLOBAL SOLUTION 2026.1 ===" nem os nomes/RMs.
+
+--------------------------------------------------------------------
+PASSO 7 - ENVIAR NO PORTAL DA FIAP
+--------------------------------------------------------------------
+- Envie o arquivo entrega/ENTREGA.txt pelo Portal do Aluno ate o prazo.
+- Se o portal exigir, zipe o ENTREGA.txt e suba o .zip.
+- NAO suba o codigo zipado no portal: o codigo vai pelo link do GitHub.
+
+--------------------------------------------------------------------
+CHECKLIST FINAL (criterios que ZERAM)
+--------------------------------------------------------------------
+[ ] App roda sem erro no Expo Go / emulador (TESTADO)
+[ ] Repositorio GitHub PUBLICO com link valido
+[ ] README.md completo, com prints de TODAS as telas
+[ ] node_modules NAO commitado
+[ ] Commits descritivos (idealmente dos dois integrantes)
+[ ] Video <= 3 min, link acessivel, demonstrando o app
+[ ] ENTREGA.txt no formato correto, com links reais
+[ ] Entrega feita ate 09/06/2026 23h55
+====================================================================
