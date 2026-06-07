@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "AETHER Mobile Console",
+    "slug": "aether-mobile-console",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "aether",
+    "backgroundColor": "#0A0E1A",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
