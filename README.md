@@ -128,9 +128,9 @@ npx expo start
 
 ## 7. Video de Demonstracao
 
-[![Assista ao video](./assets/screenshots/01-visao-geral.jpeg)](https://youtube.com/...)
+[![Assista ao video](./assets/screenshots/01-visao-geral.jpeg)](https://www.youtube.com/watch?v=e2BdrkfwAXY)
 
-> **[Substituir pelo link do YouTube (nao listado) ou Google Drive (visivel para qualquer pessoa com o link)]**
+[Clique aqui para assistir a demonstracao](https://www.youtube.com/watch?v=e2BdrkfwAXY)
 
 O video (ate 3 min) demonstra: visao geral da missao, os tres dashboards, o disparo de alertas, o formulario de limiares com validacao e o toggle de tema.
 
